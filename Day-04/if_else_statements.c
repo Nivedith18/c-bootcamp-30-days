@@ -6,7 +6,7 @@ printf("enter num:");
 scanf("%d",&num);
 if (scanf("%d",&num)!=1)
 {
-  printf("error input valid");
+  printf("Invalid input");
   return 1;
 }
 if (num>0)
