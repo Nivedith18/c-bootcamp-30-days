@@ -3,8 +3,7 @@ int main(void)
 {
   int num;
 printf("enter num:");
-scanf("%d",&num);
-if (scanf("%d",&num)!=1)
+  if (scanf("%d",&num)!=1)
 {
   printf("Invalid input");
   return 1;
