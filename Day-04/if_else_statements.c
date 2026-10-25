@@ -4,14 +4,14 @@ int main(void)
   int num;
 printf("enter num:");
 scanf("%d",&num);
-if (scanf("%d",&num)!=0)
+if (scanf("%d",&num)!=1)
 {
   printf("error input valid");
-  return 0;
+  return 1;
 }
 if (num>0)
 {
-printf("num is positive);
+printf("num is positive");
 }
   else if (num<0)
 {
