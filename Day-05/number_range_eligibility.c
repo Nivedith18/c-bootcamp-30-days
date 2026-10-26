@@ -1,7 +1,9 @@
-#include <stdio.h.
+#include <stdio.h>
 int main(void)
 {
-in num;
+int num;
+printf("enter the num : ");
+scanf("%d",&num);
 if (num >=10 && num <=100)
 {
 printf("num is in range");
